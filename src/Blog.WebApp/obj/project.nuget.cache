@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eSSevZRwG7o=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\Dev\\_project\\Blog\\Blog\\src\\Blog.WebApp\\Blog.WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.2\\microsoft.netcore.app.host.win-x64.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
