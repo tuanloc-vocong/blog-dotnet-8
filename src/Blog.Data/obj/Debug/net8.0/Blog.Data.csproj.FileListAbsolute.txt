@@ -16,3 +16,4 @@ C:\Users\Admin\Documents\Dev\_project\Blog\Blog\src\Blog.Data\bin\Debug\net8.0\B
 C:\Users\Admin\Documents\Dev\_project\Blog\Blog\src\Blog.Data\obj\Debug\net8.0\Blog.Data.csproj.AssemblyReference.cache
 C:\Users\Admin\Documents\Dev\_project\Blog\Blog\src\Blog.Data\obj\Debug\net8.0\Blog.Data.csproj.Up2Date
 C:\Users\Admin\Documents\Dev\_project\Blog\Blog\src\Blog.Data\obj\Debug\net8.0\Blog.Data.genruntimeconfig.cache
+C:\Users\Admin\Documents\Dev\_project\Blog\Blog\src\Blog.Data\obj\Debug\net8.0\Blog.Data.sourcelink.json

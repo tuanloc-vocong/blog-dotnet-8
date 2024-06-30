@@ -3,6 +3,7 @@ using Blog.Core.Domain.Content;
 using Blog.Core.Models;
 using Blog.Core.Models.Content;
 using Blog.Core.SeedWorks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Blog.Api.Controllers.AdminApi
@@ -19,14 +20,13 @@ namespace Blog.Api.Controllers.AdminApi
             _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
-
         [HttpPost]
         public async Task<IActionResult> CreatePost([FromBody] CreateUpdatePostRequest request)
         {
             var post = _mapper.Map<CreateUpdatePostRequest, Post>(request);
             _unitOfWork.Posts.Add(post);
             var result = await _unitOfWork.CompleteAsync();
-            return result > 0 ? Ok(result) : BadRequest();
+            return result > 0 ? Ok() : BadRequest();
         }
 
         [HttpPut("{id}")]

@@ -7,10 +7,17 @@ import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
-  template: '<router-outlet></router-outlet>',
+  template: `<p-toast position="top-center"></p-toast>
+    <p-confirmDialog
+      header="Xác nhận"
+      acceptLabel="Có"
+      rejectLabel="Không"
+      icon="pi pi-exclamation-triangle"
+    ></p-confirmDialog>
+    <router-outlet></router-outlet>`,
 })
 export class AppComponent implements OnInit {
-  title = 'CoreUI Free Angular Admin Template';
+  title = 'Blog CMS Administrator';
 
   constructor(
     private router: Router,

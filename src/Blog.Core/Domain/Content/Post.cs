@@ -26,7 +26,7 @@ namespace Blog.Core.Domain.Content
         public Guid CategoryId { get; set; }
 
         [MaxLength(500)]
-        public string? Thumnail { get; set; }
+        public string? Thumbnail { get; set; }
         public string? Content { get; set; }
 
         [MaxLength(500)]

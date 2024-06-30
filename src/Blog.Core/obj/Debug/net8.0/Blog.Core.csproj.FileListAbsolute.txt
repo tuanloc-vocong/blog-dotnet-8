@@ -10,3 +10,4 @@ C:\Users\Admin\Documents\Dev\_project\Blog\Blog\src\Blog.Core\obj\Debug\net8.0\r
 C:\Users\Admin\Documents\Dev\_project\Blog\Blog\src\Blog.Core\obj\Debug\net8.0\Blog.Core.pdb
 C:\Users\Admin\Documents\Dev\_project\Blog\Blog\src\Blog.Core\obj\Debug\net8.0\ref\Blog.Core.dll
 C:\Users\Admin\Documents\Dev\_project\Blog\Blog\src\Blog.Core\obj\Debug\net8.0\Blog.Core.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Dev\_project\Blog\Blog\src\Blog.Core\obj\Debug\net8.0\Blog.Core.sourcelink.json

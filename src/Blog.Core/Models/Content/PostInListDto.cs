@@ -12,7 +12,7 @@ namespace Blog.Core.Models.Content
 
         [MaxLength(500)]
         public required string Description { get; set; }
-        public string? Thumnail { get; set; }
+        public string? Thumbnail { get; set; }
         public int ViewCount { get; set; }
         public DateTime DateCreated { get; set; }
 
